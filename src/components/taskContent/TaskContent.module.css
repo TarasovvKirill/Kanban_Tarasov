@@ -1,0 +1,72 @@
+.content {
+    position: relative;
+    height: 70%;
+    max-height: 548px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 50px 10px;
+    padding: 30px;
+    pointer-events: all;
+}
+
+.name {
+    width: 80%;
+    border-style: none;
+    color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.description {
+    width: 100%;
+    margin-top: 35px;
+    min-height: 100px;
+    border-style: none;
+    color: #000000;
+    font-size: 18px;
+    line-height: 21 px;
+}
+
+.description:hover {
+    background-color: aliceblue;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.crossLine1 {
+    position: absolute;
+    top: 15px;
+    width: 33px;
+    height: 0;
+    border: 1px solid #000000;
+    transform: rotate(45deg);
+    background: transparent;
+}
+
+.crossLine2 {
+    position: absolute;
+    top: 15px;
+    width: 33px;
+    height: 0;
+    border: 1px solid #000000;
+    transform: rotate(-45deg);
+    background: transparent;
+}
+
+@media screen and (max-width:375px) {
+
+.content {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0px 20px;
+    height: 90%;
+}
+}

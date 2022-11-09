@@ -1,0 +1,42 @@
+.main {
+    padding: 0 20px;
+    height: 100%;
+ }
+ 
+ .taskList {
+    margin-top: 20px;
+    margin-right: -24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+ 
+ .taskContent {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 100%;
+    height: 90%;
+    pointer-events: none;
+ }
+ 
+ @media screen and (max-width:375px) {
+    .taskList {
+       margin: 0;
+       flex-wrap: wrap;
+       min-width: 200px;
+    }
+ 
+    .taskContent {
+       position: absolute;
+       top: 0px;
+       right: 0;
+    }
+    
+    .main {
+       position: relative;
+       height: 100vh;
+       padding: 0 20px;
+    }
+ 
+ }

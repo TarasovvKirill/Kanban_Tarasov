@@ -1,0 +1,42 @@
+.item {
+    margin: 15px 12px 0 12px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newTask {
+    display: flex;
+    flex-direction: column;
+}
+
+.newTask input {
+    padding: 7px;
+    border: none;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.newTask button {
+    width: 102px;
+    height: 29px;
+    margin: 12px 0 7px 11px;
+    background-color: #0079BF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.newTask button:hover {
+    background-color: #21b5da;
+}
+
+@media screen and (max-width:375px) {
+    .item {
+        max-height: 500px;
+    }
+}
